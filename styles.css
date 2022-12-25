@@ -19,6 +19,7 @@ a,
 }
 
 #content,
+#primary,
 #container {
   background: var(--arc-palette-background) !important;
 }
@@ -33,4 +34,8 @@ a,
 #page-manager {
   padding: 2% 2% !important;
   margin: 0% 2% !important;
+}
+
+canvas {
+  opacity: 0 !important;
 }
