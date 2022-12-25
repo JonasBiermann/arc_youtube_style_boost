@@ -1,7 +1,7 @@
 /*
  * Arc Boost — Minimal Youtube
  * Author: @jacob_biermann
- * Version: 1.0.0
+ * Version: 1.0.1
  */
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
@@ -29,11 +29,6 @@ a,
 #guide-wrapper,
 #chips-wrapper {
   display: none !important;
-}
-
-#page-manager {
-  padding: 2% 2% !important;
-  margin: 0% 2% !important;
 }
 
 canvas {
