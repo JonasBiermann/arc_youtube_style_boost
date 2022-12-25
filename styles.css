@@ -1,0 +1,36 @@
+/*
+ * Arc Boost — Minimal Youtube
+ * Author: @jacob_biermann
+ * Version: 1.0.0
+ */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+
+* {
+  color: var(--arc-palette-foregroundTertiary);
+  font-family: "Poppins", sans-serif !important;
+  border-color: var(--arc-palette-foregroundPrimary) !important;
+}
+
+a,
+#text,
+#video-title {
+  color: var(--arc-palette-foregroundPrimary) !important;
+}
+
+#content,
+#container {
+  background: var(--arc-palette-background) !important;
+}
+
+#contentContainer,
+.style-scope ytd-rich-section-renderer,
+#guide-wrapper,
+#chips-wrapper {
+  display: none !important;
+}
+
+#page-manager {
+  padding: 2% 2% !important;
+  margin: 0% 2% !important;
+}
